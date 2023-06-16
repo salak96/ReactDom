@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import React from 'react';
 const Home = () => {
     return (
-        <div className='p-40 text-4xl flex flex-col align-center text-center justify-center'>
+        <div className='font-bold p-40 text-4xl flex flex-col align-center text-center justify-center'>
             <h1>Hello Lambang</h1>
             <div className='flex flex-col m-10 text-red-500'>
                 <Link to='/about'>About</Link>

@@ -4,8 +4,8 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div className='p-40 text-4xl flex flex-col align-center text-center justify-center'>
-            <h1>About</h1>
+        <div className='font-bold p-40 text-4xl flex flex-col align-center text-center justify-center'>
+            <h1 className=''>About</h1>
             <div className='flex flex-col m-10 text-blue-500'>
                 <Link to='/'>Home</Link>
             </div>
